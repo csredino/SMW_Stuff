@@ -196,7 +196,7 @@ db $0, $0
 dw $A0
 dw $1
 db $0, $0
-dw $144
+dw $E2
 dw $11
 db $0, $0
 dw $FFFF
@@ -223,7 +223,7 @@ db $0, $0
 dw $A0
 dw $1
 db $0, $0
-dw $12E
+dw $C0
 dw $11
 db $0, $0
 dw $FFFF
@@ -250,7 +250,7 @@ db $0, $0
 dw $A0
 dw $1
 db $0, $0
-dw $144
+dw $C0
 dw $11
 db $0, $0
 dw $FFFF
@@ -277,7 +277,7 @@ db $0, $0
 dw $202
 dw $1
 db $0, $0
-dw $220
+dw $222
 dw $11
 db $0, $0
 dw $FFFF
@@ -409,10 +409,10 @@ db $0, $0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;Using pipe, Turning with item
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-dw $1AA
+dw $A0
 dw $1
 db $0, $0
-dw $1CA
+dw $E2
 dw $11
 db $0, $0
 dw $FFFF
@@ -790,7 +790,7 @@ db $0, $0
 dw $FFFF
 dw $1
 db $0, $0
-dw $1A2
+dw $28C
 dw $11
 db $0, $0
 dw $FFFF
