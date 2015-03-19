@@ -1,2 +1,2 @@
-xkas.exe Powerup.asm coop.smc
+xkas.exe Powerup.asm poweruptest.smc
 @pause
