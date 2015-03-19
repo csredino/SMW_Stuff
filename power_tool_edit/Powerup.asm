@@ -556,6 +556,8 @@ UpdatePowerups:
 								sta $02                    ; |
 								sep #$30                   ;/
 								JSL GotoPointer            ;Run the OUT routine of previous powerup
+								LDA #$0					;
+								STA $87					;my added two lines to reset the hit box, need the Box.asm patch to be applied ahead of time
 								jsr UpdateBytes            ;Update the abillity bytes since powerup state have changed
 								lda $19
 								jsr GetTableLoc
