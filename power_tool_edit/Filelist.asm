@@ -1,14 +1,14 @@
-File0: namespace "P0" : incsrc Powerup\Racoon.asm                                                : namespace "global"
-File1: namespace "P1" : incsrc Powerup\HammerSuit.asm                     : namespace "global"
-File2: namespace "P2" : incsrc Powerup\FrogMario.asm                     : namespace "global"
-File3: namespace "P3" : incsrc Powerup\Superball.asm                   : namespace "global"
-File4: namespace "P4" : incsrc Powerup\Crashsuit.asm                   : namespace "global"
-File5: namespace "P5" : incsrc Powerup\hammer.asm                   : namespace "global"
-File6: namespace "P6" : incsrc Powerup\WaveMario.asm                   : namespace "global"
-File7: namespace "P7" : incsrc Powerup\ChuckSuit.asm                   : namespace "global"
-File8: namespace "P8" : incsrc Powerup\WaterMario.asm                   : namespace "global"
-File9: namespace "P9" : incsrc C:\Users\Orukoen\Desktop\CrocSuit.asm : namespace "global"
-FileA: namespace "PA" : incsrc Powerup\bee.asm                  : namespace "global"
+File0: namespace "P0" : incsrc Powerup\Racoon.asm                                                         : namespace "global"
+File1: namespace "P1" : incsrc Powerup\HammerSuit.asm                              : namespace "global"
+File2: namespace "P2" : incsrc Powerup\FrogMario.asm                              : namespace "global"
+File3: namespace "P3" : incsrc Powerup\Superball.asm                            : namespace "global"
+File4: namespace "P4" : incsrc Powerup\mini.asm      : namespace "global"
+File5: namespace "P5" : incsrc Powerup\hammer.asm                            : namespace "global"
+File6: namespace "P6" : incsrc Powerup\WaveMario.asm                            : namespace "global"
+File7: namespace "P7" : incsrc Powerup\ChuckSuit.asm                            : namespace "global"
+File8: namespace "P8" : incsrc Powerup\WaterMario.asm                            : namespace "global"
+File9: namespace "P9" : incsrc Powerup\CrocSuit.asm         : namespace "global"
+FileA: namespace "PA" : incsrc Powerup\bee.asm                           : namespace "global"
 FileB: incsrc Powerup\small.tmp
 FileC: incbin Powerup\PoisonMushroom.bin
 FileD: incbin powerup\GrowingAnim.bin
@@ -28,8 +28,8 @@ File1A: incbin Powerup\FrogSuit.bin
 File1B: incbin Powerup\Frog.pal
 File1C: incbin Powerup\SuperFlower.bin
 File1D: incbin Powerup\Superball.pal
-File1E: incbin Powerup\Crashsuit.bin
-File1F: incbin Powerup\Crashsuit.pal
+File1E: incsrc Powerup\mini.tmp
+File1F: incbin Powerup\MiniShroom.bin
 File20: incsrc Powerup\hammer.tmp
 File21: incbin Powerup\Hammer.bin
 File22: incbin Powerup\WaveShroom.bin

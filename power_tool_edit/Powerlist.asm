@@ -78,16 +78,16 @@ dw $0032
 dw $0032
 dl File1D
 dl File1D
-;Powerup $8:Crash Mario
-dw %1010100000000
+;Powerup $8:Mini Mario
+dw %11000001100000
 dl File4
-dl FileE
 dl File1E
-dl File14
-dw $0032
-dw $0032
 dl File1F
-dl File1F
+dl File12
+dw $0104
+dw $0104
+dl $00B2C8
+dl $00B2C8
 ;Powerup $9:Hammer Mario
 dw %10000100000000
 dl File5
@@ -128,7 +128,7 @@ dw $105
 dw $105
 dl File29
 dl File29
-;Powerup $D:Tanuki Mario
+;Powerup $D:Croc Mario
 dw %101001100001000
 dl File9
 dl File2A
