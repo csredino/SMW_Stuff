@@ -16,4 +16,3 @@ other notes:
 maybe i should be making new power ups instead of editing old ones . . .
 if changing the files, make sure they stay in the same powerup directory, otherwise it wont know where they are
 
-ALSO at 4powertool, i inserted a hitbox flag reset right before the OUT routine, just search "OUT " with a space after to find it, flag is $87, set to #$0 for "normal"
