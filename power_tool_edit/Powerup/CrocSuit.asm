@@ -2,13 +2,13 @@
 
 rtl
 nop #2
-jmp ChuckMain
+jmp CrocMain
 rtl
 
 
 
 				
-ChuckMain:	
+CrocMain:	
 					lda $13E3
 					cmp #$00
 					bne NotSpinning

@@ -220,14 +220,14 @@ org $0491D5
 ;------------------------------------
 ;fix for the mario image on the OW
 ;------------------------------------
-;org $487e3
-;						   db  $ee, $24, $eF, $24, $Ff, $24, $Fe
-;org $487d3
-;						   db  $ee, $24, $eF, $24, $Ff, $24, $Fe 
-;org $48853
-;						   db  $ee, $24, $eF, $24
-;org $48863
-;						   db  $ee, $24, $eF, $24
+org $487e3
+						   db  $ee, $24, $eF, $24, $Ff, $64, $Fe, $64
+org $487d3
+						   db  $ee, $24, $eF, $24, $Ff, $64, $Fe, $64
+org $48853
+						   db  $ee, $24, $eF, $24, $Ff, $64, $Fe, $24
+org $48863
+						   db  $ee, $24, $eF, $24, $Ff, $64, $Fe, $24
 ;---------------------------------------------------------------------
 ;Actual start of code
 ;---------------------------------------------------------------------
@@ -543,6 +543,21 @@ UpdatePowerups:
 								lda !PreviousPowerup       ;\
 								cmp $19                    ; |if powerup state hasn't changed, don't start animation
 								beq DontdeCompress         ;/
+	
+								lda !PreviousPowerup       ;;;;my edits to kill minimario when damaged
+								cmp #$08                   ;;;;if previoius is mini
+								beq KillMini			   ;;;; go to kill mini
+								jmp FinishUpdate
+
+KillMini:
+								  lda #$0
+								  cmp $19
+								  beq KillTime
+								  jmp FinishUpdate
+
+KillTime:		
+							      jsl $00F606				 ; kill mario
+FinishUpdate:
 								jsl GetPalPointer
 								lda !PreviousPowerup
 								jsr GetTableLoc
@@ -558,7 +573,7 @@ UpdatePowerups:
 								JSL GotoPointer            ;Run the OUT routine of previous powerup
 								LDA #$0					;
 								STA $87					;my added two lines to reset the hit box, need the Box.asm patch to be applied ahead of time
-								jsr UpdateBytes            ;Update the abillity bytes since powerup state have changed
+								jsr UpdateBytes            ;Update the ability bytes since powerup state have changed
 								lda $19
 								jsr GetTableLoc
 								rep #$20
@@ -583,6 +598,7 @@ UpdatePowerups:
 								lda $19                      ;\
 								sta !PreviousPowerup         ;/Update !PreviousPowerup
 								jmp RetPrepDecomp
+KillMini
 
 
 DontdeCompress:
