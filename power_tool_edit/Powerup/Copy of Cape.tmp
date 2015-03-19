@@ -1,0 +1,1775 @@
+!PAGE1 = $100
+!PAGE2 = $1E0
+dw capeFrames2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 0  Walking 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $1
+db $0, $0
+dw $FFFF
+dw $9
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $19
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 1  Walking 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $2
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 2  Walking 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $0
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame3 Looking up
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $140
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame4 Running 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $28
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $26C
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame5 Running 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $26
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $26C
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame6 Running 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $24
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $26C
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame7 Walking with object 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $60
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame8	Walking with object 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $4E
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame9	Walking with object 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $4C
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;FrameA Looking up with object
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $140
+dw $1
+db $0, $0
+dw $60
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;FrameB Jumping
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E8
+dw $1
+db $0, $0
+dw $6
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;FrameC Flying (take off)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $2A
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $27E
+dw $11
+db $0, $0
+dw $26F
+dw $19
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;FrameD Turning
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $8
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;FrameE Kicking item
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $62
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;FrameF Using pipe, Turning with item
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $108
+dw $1
+db $0, $0
+dw $E
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame10 About to run up wall
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $2E
+dw $9
+db $0, $0
+dw $1CE
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame11 Running up a wall 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $148
+dw $0
+db $0, $0
+dw $4A
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame12 Running up a wall 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $148
+dw $0
+db $0, $0
+dw $48
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame13 Running up a wall 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $148
+dw $0
+db $0, $0
+dw $46
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame14 Posing on Yoshi
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $166
+dw $1
+db $0, $0
+dw $C4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame15 Climbing vine
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $160
+dw $1
+db $0, $0
+dw $6C
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame16 Swimming 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $66
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $F8AE2
+dw $11
+db $0, $0
+dw $F9AE2
+dw $19
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame17 Swimming with item 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $122
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $F8AE2
+dw $11
+db $0, $0
+dw $F9AE2
+dw $19
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame18 Swimming 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $68
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FAAE2
+dw $11
+db $0, $0
+dw $FBAE2
+dw $19
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame19 Swimming with item 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $124
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FAAE2
+dw $11
+db $0, $0
+dw $FBAE2
+dw $19
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame1A Swimming 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $6A
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $86AE2
+dw $11
+db $0, $0
+dw $87AE2
+dw $19
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame1B Swimming with item 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $142
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $86AE2
+dw $11
+db $0, $0
+dw $87AE2
+dw $19
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame1C Sliding downhill
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame1D Ducking with item, Ducking on Yoshi
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $1C4
+dw $1
+db $0, $0
+dw $1E4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame1E Punching net
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E4
+dw $1
+db $0, $0
+dw $E6
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $B6AE2
+dw $9
+db $0, $0
+dw $B7AE2
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame1F Net turning 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $26AE2
+dw $1
+db $0, $0
+dw $46AE2
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame20 On Yoshi normal, Net tuning 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $C2
+dw $1
+db $0, $0
+dw $180
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame21 On Yoshi turning, Net tuning 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $182
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame22 Climbing (behind)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $C6
+dw $1
+db $0, $0
+dw $184
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame23 Punching net (behind)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $104
+dw $1
+db $0, $0
+dw $106
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $A6AE2
+dw $9
+db $0, $0
+dw $A7AE2
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame24 Falling
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $18E
+dw $1
+db $0, $0
+dw $1A4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame25 Spin back (Small Mario), Brushing 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $120
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame26 Posing
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $166
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame27 Use Yoshi tongue 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $1A8
+dw $1
+db $0, $0
+dw $1C8
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame28 Use Yoshi tongue 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $14A
+dw $1
+db $0, $0
+dw $16A
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame29 Unused?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $180
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame2A Gliding 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $18AE2
+dw $1
+db $F8, $9
+dw $1CAE2
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $8AAE1
+dw $11
+db $F8, $9
+dw $80
+dw $11
+db $10, $F0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame2B Gliding 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $C8
+dw $A
+db $F9, $8
+dw $AA
+dw $10
+db $5, $FC
+dw $FFFF
+dw $0
+db $0, $0
+dw $91
+dw $1
+db $F9, $8
+dw $19B
+dw $11
+db $8, $F9
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame2C Gliding 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $20AE2
+dw $B
+db $F8, $9
+dw $22AE2
+dw $B
+db $8, $FF
+dw $FFFF
+dw $0
+db $0, $0
+dw $81
+dw $3
+db $FB, $10
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame2D Gliding 4
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $24AE2
+dw $11
+db $1, $FF
+dw $EB
+dw $1
+db $9, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $90
+dw $11
+db $9, $F8
+dw $9AAE1
+dw $15
+db $4, $FB
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame2E Gliding 5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $EE
+dw $1
+db $8, $F9
+dw $3EAE2
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $82
+dw $11
+db $8, $F9
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame2F Gliding 6
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $44AE2
+dw $11
+db $0, $0
+dw $A2
+dw $1
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame30 Looking at castle (exploded) 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $92
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame31 Looking at castle (exploded) 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $94
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame32 Looking at castle
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $90
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame33 Looking at flying castle 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $96
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame34 Looking at flying castle 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $98
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame35 Lean back with hammer
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $B8
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame36 Hammer in mid-air
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $BB
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame37 Smash with hammer
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $BE
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame38 Brushing 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $1C6
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame39 Brushing 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $120
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame3A Smash hammer again??
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $BE
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame3B Unused?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $18A
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame3C Ducking
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $C
+dw $11
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame3D Growing
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $5
+db $0, $0
+dw $1C2
+dw $16
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame3E Dying
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $126
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame3F Throwing fireball
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $126
+dw $1
+db $0, $0
+dw $146
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame40 Unused?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $18A
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame41 Unused?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $34
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame42 P-Balloon small
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $12A
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame43 P-Balloon big
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $10A
+dw $1
+db $0, $0
+dw $18A
+dw $11
+db $0, $0
+dw $12A
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame44 Spin back
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $120
+dw $1
+db $0, $0
+dw $20
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame45 Spin front
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $108
+dw $1
+db $0, $0
+dw $E
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Cape Frames
+capeFrames2:
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 0 (Standing still, shown after $01 and $02, countinously shown after)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $A
+dw $11
+db $A, $F7
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 1 (Standing still, shown after $02)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $88
+dw $D
+db $A, $F7
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 2 (Standing still, first frame shown)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $8A
+dw $D
+db $A, $F7
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 3 (Walking 1)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $44
+dw $D
+db $A, $F7
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 4 (Walking 2)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $42
+dw $D
+db $A, $F7
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 5 (Walking 3)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $40
+dw $D
+db $A, $F7
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 6 (Walking 4)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $22
+dw $D
+db $A, $F7
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 7 (Falling 1)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $A4
+dw $1
+db $7, $FA
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 8 (Falling 2)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $A6
+dw $1
+db $7, $FA
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame 9 (Falling 3)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $86
+dw $1
+db $7, $FA
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame A (Falling 4)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $6E
+dw $1
+db $7, $FA
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame B (Gliding 1)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $8C
+dw $1
+db $8, $F9
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame C (Gliding 2)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $CA
+dw $1
+db $9, $F8
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame D (Gliding 3)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $8E
+dw $FFFB
+db $9, $F8
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Frame E (Gliding 4)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $EA
+dw $1

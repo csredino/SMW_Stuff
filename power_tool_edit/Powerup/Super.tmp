@@ -1,0 +1,1893 @@
+!PAGE1 = $100
+!PAGE2 = $1E0
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Walking 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $11
+db $8, $11
+dw $FFFF
+dw $0
+db $8, $11
+dw $FFFF
+dw $1
+db $0, $0
+dw $FFFF
+dw $9
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $19
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Walking 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $2
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Walking 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $0
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Looking up
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $140
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Running 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $28
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $26C
+dw $11
+db $10, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Running 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $26
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $26C
+dw $11
+db $10, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Running 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $24
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $26C
+dw $11
+db $10, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Walking with object 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $60
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Walking with object 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $4E
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Walking with object 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $4C
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Looking up with object
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $140
+dw $1
+db $0, $0
+dw $60
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Jumping
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E8
+dw $1
+db $0, $0
+dw $6
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Flying (take off)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $2A
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $27E
+dw $11
+db $10, $F8
+dw $27F
+dw $19
+db $10, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Turning
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $8
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Kicking item
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $62
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Using pipe, Turning with item
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $108
+dw $1
+db $0, $0
+dw $E
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;About to run up wall
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $2E
+dw $4
+db $10, $F0
+dw $1CE
+dw $C
+db $8, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Running up a wall 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $148
+dw $0
+db $18, $E9
+dw $4A
+dw $0
+db $8, $F9
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $26D
+dw $10
+db $F, $FA
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Running up a wall 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $148
+dw $0
+db $18, $E9
+dw $48
+dw $0
+db $8, $F9
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $26D
+dw $10
+db $F, $FB
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Running up a wall 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $148
+dw $0
+db $18, $E9
+dw $46
+dw $0
+db $8, $F9
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $26D
+dw $10
+db $F, $FA
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Posing on Yoshi
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $166
+dw $1
+db $0, $0
+dw $C4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Climbing vine
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $160
+dw $1
+db $0, $0
+dw $6C
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Swimming 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $66
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $2E2
+dw $14
+db $10, $F8
+dw $FFFF
+dw $11
+db $10, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Swimming with item 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $122
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $2E2
+dw $14
+db $10, $F8
+dw $FFFF
+dw $19
+db $10, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Swimming 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $68
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $2E2
+dw $11
+db $10, $F8
+dw $2E3
+dw $19
+db $10, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Swimming with item 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $124
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $2E2
+dw $11
+db $10, $F8
+dw $2E3
+dw $19
+db $10, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Swimming 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $6A
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $26E
+dw $11
+db $10, $F9
+dw $26F
+dw $19
+db $10, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Swimming with item 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $142
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $26E
+dw $11
+db $10, $F9
+dw $26F
+dw $19
+db $10, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Sliding downhill
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Ducking with item, Ducking on Yoshi
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $1C4
+dw $1
+db $0, $0
+dw $1E4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Punching net
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E4
+dw $1
+db $0, $0
+dw $E6
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $29E
+dw $9
+db $10, $F8
+dw $29F
+dw $11
+db $10, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Net turning 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $20E
+dw $1
+db $0, $0
+dw $22E
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;On Yoshi normal, Net tuning 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $C2
+dw $1
+db $0, $0
+dw $180
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;On Yoshi turning, Net tuning 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $1
+db $0, $0
+dw $182
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Climbing (behind)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $C6
+dw $1
+db $0, $0
+dw $184
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Punching net (behind)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $104
+dw $1
+db $0, $0
+dw $106
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $28E
+dw $9
+db $10, $F8
+dw $28F
+dw $11
+db $10, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Falling
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $18E
+dw $1
+db $0, $0
+dw $1A4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Spin back
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $120
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Posing
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $166
+dw $1
+db $0, $0
+dw $16E
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Use Yoshi tongue 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $1A8
+dw $1
+db $0, $0
+dw $1C8
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Use Yoshi tongue 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $14A
+dw $1
+db $0, $0
+dw $16A
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Unused?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $FFFF
+dw $1
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Gliding 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $FFFF
+dw $1
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Gliding 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $FFFF
+dw $1
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Gliding 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $FFFF
+dw $1
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Gliding 4
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $FFFF
+dw $1
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Gliding 5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $FFFF
+dw $1
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Gliding 6
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $FFFF
+dw $1
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Looking at castle (exploded) 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $282
+dw $1
+db $0, $0
+dw $2A2
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Looking at castle (exploded) 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $284
+dw $1
+db $0, $0
+dw $2A2
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Looking at castle
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $280
+dw $1
+db $0, $0
+dw $2A0
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Looking at flying castle 1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $286
+dw $1
+db $0, $0
+dw $2C0
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Looking at flying castle 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $288
+dw $1
+db $0, $0
+dw $2C0
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Lean back with hammer
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $2AA
+dw $1
+db $0, $0
+dw $2CA
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Hammer in mid-air
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $2AC
+dw $1
+db $0, $0
+dw $2CC
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Smash with hammer
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $2AE
+dw $1
+db $0, $0
+dw $2CE
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Brushing 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $1C6
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Brushing 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $120
+dw $1
+db $0, $0
+dw $4
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Smash hammer again??
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $2AE
+dw $1
+db $0, $0
+dw $2CE
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Unused?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $FFFF
+dw $1
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Ducking
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $C
+dw $11
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Growing
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $E0
+dw $5
+db $0, $0
+dw $1C2
+dw $16
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Dying
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $228
+dw $1
+db $0, $0
+dw $22A
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Throwing fireball
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $126
+dw $1
+db $0, $0
+dw $146
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Unused?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $FFFF
+dw $1
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Unused?
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $FFFF
+dw $1
+db $0, $0
+dw $FFFF
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;P-Balloon small
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $206
+dw $1
+db $0, $0
+dw $224
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;P-Balloon big
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $10A
+dw $1
+db $0, $0
+dw $12A
+dw $11
+db $F8, $8
+dw $12A
+dw $2011
+db $8, $F8
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Spin back
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $120
+dw $1
+db $0, $0
+dw $20
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Spin front
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dw $108
+dw $1
+db $0, $0
+dw $E
+dw $11
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
+dw $FFFF
+dw $0
+db $0, $0
